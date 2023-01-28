@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заголовок страницы</title>
+</head>
+<body>
+    <p>Какие символы включать в пароль:</p>
+<ul class="password__generate">
+	<li><input id="arr_num" type="checkbox" /> Цифры</li>
+	<li><input id="arr_en" type="checkbox" /> Английский строчные буквы</li>
+	<li><input id="arr_EN" type="checkbox" /> Английский заглавные буквы</li>
+	<li><input id="arr_symb" type="checkbox" /> Спецсимволы</li>
+</ul>
+<p>Количество символов в пароле: <input id="passLenght" type="number" step="1" min="4" max="100" value="8" /></p>
+<p>Сгенерированный пароль: <span id="result"></span></p>
+<p><button id="pass_start">Сгенерировать пароль</button></p>
+<script src="E:\Random Password Generator\scriptforgenerator.js"></script>
+</body>
+</html>
